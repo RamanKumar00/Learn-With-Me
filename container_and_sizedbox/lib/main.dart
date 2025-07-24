@@ -1,4 +1,4 @@
-import 'package:container_and_sizedbox/widgets/container_sized.dart';
+ import 'package:container_and_sizedbox/widgets/row_and_column.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(new MyApp());
@@ -11,9 +11,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark, primaryColor: Colors.deepPurple
+        brightness: Brightness.dark,
+        primaryColor: Colors.deepPurple,
       ),
-      home: container_sized(),
+      home: RowsCols(),
     );
   }
 }
