@@ -1,5 +1,5 @@
-import 'package:container_and_sizedbox/list_grid.dart';
-import 'package:container_and_sizedbox/widgets/buttons.dart';
+import 'package:container_and_sizedbox/Snackbar.dart';
+//import 'package:container_and_sizedbox/widgets/buttons.dart';
 // import 'package:container_and_sizedbox/widgets/row_and_column.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.deepPurple,
       ),
-      home: ListGrid(),
+      home: Snackbar(),
     );
   }
 }
