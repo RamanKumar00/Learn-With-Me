@@ -1,6 +1,9 @@
 import 'package:container_and_sizedbox/Snackbar.dart';
+import 'package:container_and_sizedbox/drawer.dart';
 //import 'package:container_and_sizedbox/widgets/buttons.dart';
 // import 'package:container_and_sizedbox/widgets/row_and_column.dart';
+import 'package:container_and_sizedbox/Dismissible.dart';
+import 'package:container_and_sizedbox/imageWidget.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(new MyApp());
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.deepPurple,
       ),
-      home: Snackbar(),
+      home: Imagewidget(),
     );
   }
 }
