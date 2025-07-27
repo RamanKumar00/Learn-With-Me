@@ -14,6 +14,7 @@ class Bottomsheet extends StatelessWidget {
       ),
       body: Center(
         child: ElevatedButton(
+          style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
           onPressed: () {
             showModalBottomSheet(
               backgroundColor: Colors.purple,

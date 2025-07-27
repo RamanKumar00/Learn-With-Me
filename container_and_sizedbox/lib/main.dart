@@ -1,6 +1,7 @@
 // ignore_for_file: unused_import
 
 import 'package:container_and_sizedbox/Snackbar.dart';
+import 'package:container_and_sizedbox/animated_text.dart';
 import 'package:container_and_sizedbox/drawer.dart';
 //import 'package:container_and_sizedbox/widgets/buttons.dart';
 // import 'package:container_and_sizedbox/widgets/row_and_column.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.orange,
       ),
-      home: Bottomsheet(),
+      home: AnimatedText(),
     );
   }
 }
