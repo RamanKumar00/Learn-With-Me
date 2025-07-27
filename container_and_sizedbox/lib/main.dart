@@ -7,6 +7,7 @@ import 'package:container_and_sizedbox/drawer.dart';
 // ignore: unused_import
 import 'package:container_and_sizedbox/Dismissible.dart';
 import 'package:container_and_sizedbox/imageWidget.dart';
+import 'package:container_and_sizedbox/widgets/bottomSheet.dart';
 import 'alert.dart';
 
 import 'package:flutter/material.dart';
@@ -23,9 +24,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
-        primaryColor: Colors.deepPurple,
+        primaryColor: Colors.orange,
       ),
-      home: AlertWidget(),
+      home: Bottomsheet(),
     );
   }
 }
