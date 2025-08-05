@@ -43,28 +43,28 @@ class _ListGridState extends State<ListGrid> {
           ),
           children: [
             Card(
-              child: Center(child: Text('orange')),
               color: Colors.amber,
+              child: Center(child: Text('orange')),
             ),
             Card(
-              child: Center(child: Text('orange')),
               color: Colors.orange,
+              child: Center(child: Text('orange')),
             ),
             Card(
-              child: Center(child: Text('orange')),
               color: Colors.red,
+              child: Center(child: Text('orange')),
             ),
             Card(
-              child: Center(child: Text('orange')),
               color: Colors.green,
+              child: Center(child: Text('orange')),
             ),
             Card(
-              child: Center(child: Text('orange')),
               color: Colors.blue,
+              child: Center(child: Text('orange')),
             ),
             Card(
-              child: Center(child: Text('orange')),
               color: Colors.blueGrey,
+              child: Center(child: Text('orange')),
             ),
           ],
         ),

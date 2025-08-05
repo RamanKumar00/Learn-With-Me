@@ -16,9 +16,9 @@ class ButtonWidget extends StatelessWidget {
                 print("Wow");
               },
               style: ButtonStyle(
-                overlayColor: MaterialStateProperty.all(Colors.black45),
-                elevation: MaterialStateProperty.all(20),
-                backgroundColor: MaterialStateProperty.all(Colors.amber),
+                overlayColor: WidgetStateProperty.all(Colors.black45),
+                elevation: WidgetStateProperty.all(20),
+                backgroundColor: WidgetStateProperty.all(Colors.amber),
               ),
               child: Text("Press me "),
             ),
