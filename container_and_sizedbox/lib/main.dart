@@ -1,24 +1,7 @@
-// ignore_for_file: unused_import
-
-import 'package:container_and_sizedbox/Snackbar.dart';
-import 'package:container_and_sizedbox/animated_text.dart';
-import 'package:container_and_sizedbox/drawer.dart';
-//import 'package:container_and_sizedbox/widgets/buttons.dart';
-// import 'package:container_and_sizedbox/widgets/row_and_column.dart';
-// ignore: unused_import
-import 'package:container_and_sizedbox/Dismissible.dart';
-import 'package:container_and_sizedbox/hello_world.dart';
-import 'package:container_and_sizedbox/imageWidget.dart';
-import 'package:container_and_sizedbox/widgets/bottomSheet.dart';
-import 'package:container_and_sizedbox/widgets/dropdown.dart';
-import 'package:container_and_sizedbox/widgets/form.dart';
-import 'package:container_and_sizedbox/widgets/stack_and_positioned.dart';
-import 'alert.dart';
-
 import 'package:flutter/material.dart';
+import 'package:container_and_sizedbox/tabbar.dart';
 
-// ignore: unnecessary_new
-void main() => runApp(new MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -29,9 +12,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
-        primaryColor: Colors.orange,
+        colorScheme: const ColorScheme.dark(primary: Colors.orange),
       ),
-      home: FormWidget(),
+      home: const TabbarWidget(),
     );
   }
 }
