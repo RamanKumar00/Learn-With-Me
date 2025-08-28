@@ -3,6 +3,8 @@
     <!-- Or -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
         <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+        <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:label="container_and_sizedbox"
         android:name="${applicationName}"

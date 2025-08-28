@@ -1,5 +1,5 @@
 
-import 'package:container_and_sizedbox/widgets/day19UI.dart';
+import 'package:container_and_sizedbox/day20complexUI.dart';
 import 'package:flutter/material.dart';
 
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         colorScheme: const ColorScheme.dark(primary: Colors.orange),
       ),
-      home:  Day19UI()
+      home:  InstaProfilePage()
     );
   }
 }
