@@ -1,10 +1,13 @@
 
-import 'package:container_and_sizedbox/day20complexUI.dart';
+import 'package:container_and_sizedbox/widgets/Firebaseauth.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-
-
-void main() => runApp(const MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         colorScheme: const ColorScheme.dark(primary: Colors.orange),
       ),
-      home:  InstaProfilePage()
+      home: Day24Authentication(),
     );
   }
 }
