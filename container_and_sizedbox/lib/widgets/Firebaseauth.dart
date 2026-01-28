@@ -2,7 +2,7 @@ import 'package:container_and_sizedbox/function/authfunction.dart';
 import 'package:flutter/material.dart';
 
 class Day24Authentication extends StatefulWidget {
-  const Day24Authentication({Key? key}) : super(key: key);
+  const Day24Authentication({super.key});
 
   @override
   _Day24AuthenticationState createState() => _Day24AuthenticationState();
@@ -81,7 +81,7 @@ class _Day24AuthenticationState extends State<Day24Authentication> {
               SizedBox(
                 height: 10,
               ),
-              Container(
+              SizedBox(
                   width: double.infinity,
                   height: 50,
                   child: ElevatedButton(
